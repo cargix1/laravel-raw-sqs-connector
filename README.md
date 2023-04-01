@@ -38,7 +38,7 @@ Add the Service Provider into `config/app.php` like so:
 ```
 'providers' => [
     '...',
-    '\PrimitiveSense\LaravelRawSqsConnector\RawSqsServiceProvider'
+    PrimitiveSense\LaravelRawSqsConnector\RawSqsServiceProvider::class
 ];
 ```
 
